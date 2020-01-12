@@ -1,0 +1,19 @@
+.playAgain {
+  font-size: 25px;
+}
+
+.result h1 {
+    animation: glow .5s infinite alternate;
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 0 0 10px red;
+    }
+}
+
+.result h1 {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
